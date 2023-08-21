@@ -35,8 +35,8 @@ const Menu = ({
             </Link>
           </li>
 
-          {MiniProjects.map((MP) => (
-            <li className="hover:text-gray-300 duration-100 cursor-pointer underline underline-offset-8">
+          {MiniProjects.map((MP,i) => (
+            <li key={i} className="hover:text-gray-300 duration-100 cursor-pointer underline underline-offset-8">
               <Link href={MP.href}>{MP.title}</Link>
             </li>
           ))}

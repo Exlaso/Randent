@@ -3,7 +3,7 @@ import NavBar from "@/components/NavBar";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
-const page = () => {
+const Page = () => {
   interface jokeobj {
     type: string;
     setup: string;
@@ -88,4 +88,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

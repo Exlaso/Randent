@@ -2,7 +2,7 @@
 import NavBar from "@/components/NavBar";
 import { motion } from "framer-motion";
 import { useState } from "react";
-const page = () => {
+const Page = () => {
   interface Probobj {
     name: string;
     probability: number;
@@ -84,4 +84,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
